@@ -1,0 +1,28 @@
+{
+  "name": "node.js-project",
+  "version": "1.0.0",
+  "description": "a simple attendance",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ejs": "^3.1.5",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KUSUM24/Node.js-project.git"
+  },
+  "keywords": [
+    "attendance"
+  ],
+  "author": "kusum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KUSUM24/Node.js-project/issues"
+  },
+  "homepage": "https://github.com/KUSUM24/Node.js-project#readme"
+}
