@@ -2,10 +2,10 @@ var express = require("express");
 var app = express();
 var port = 5000;
 
-app.use("/", (req, res) => {
+app.get("/", (req, res) => {
   res.sendFile(__dirname + "/Main/login.html");
 });
-app.use("/signup", (req, res) => {
+app.get("/signup", (req, res) => {
   res.sendFile(__dirname + "/Main/signup.html");
 });
 app.listen(port, () => {
