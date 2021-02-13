@@ -4,6 +4,7 @@ var app = express();
 const connectDB = require("./DB/Connection");
 connectDB();
 
+app.use('/api/userModel',require('./Api/User'))
 app.set("view engine", "ejs");
 app.use("/assets", express.static("css"));
 
